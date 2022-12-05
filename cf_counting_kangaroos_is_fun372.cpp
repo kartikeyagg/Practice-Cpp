@@ -7,7 +7,7 @@ int main()
 {
     ios_base::sync_with_stdio(false); 
     int n;
-    cin>>n;
+    cin>>n; //adding a comment here
     vector<int> vec(n);
     for (int i = 0; i < n; i++)
     {
@@ -36,6 +36,6 @@ int main()
     }
     // cout<<"ans is ";
     cout<<n - count;
-    cout<<endl;
+    cout<<"\n";
     return 0;
 }
